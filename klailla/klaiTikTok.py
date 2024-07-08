@@ -20,7 +20,7 @@ from useragents import *
 
 class kali:
 
-	def __init__(self, username):
+	def __init__(self, @imrooby_):
 		# Make sure that the usernames starts with @ for the http request
 		if username.startswith('@'):
 			self.username = username
